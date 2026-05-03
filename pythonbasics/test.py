@@ -52,6 +52,7 @@ square(125)
 # Real-world application example of lists & dictionaries (sorting a list of fruits into bins based on type)✅
 fruit_basket = ['apple', 'banana', 'cherry', 'date', 'eggplant']  
 type_to_bin = {'fruit': [], 'vegetable': []}  
+my_list = ['apple', 'banana', 'carrot', 'date', 'eggplant']
 for fruit in my_list: 
     if fruit in type_to_bin.keys(): # Checking dictionary keys for item placement (avoid KeyError)
         type_to_bin[fruit].append(fruit)
