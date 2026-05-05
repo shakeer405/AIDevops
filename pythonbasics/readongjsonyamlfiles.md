@@ -148,4 +148,7 @@ except FileNotFoundError:
     print("File not found.")
 except PermissionError:
     print("Permission denied.")     
-    
+
+in this example , the code inside the try block attempts to open the file, if an exception occurs , it is caught and handled accordingly.
+
+
